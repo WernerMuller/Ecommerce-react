@@ -1,0 +1,40 @@
+@import './defaultVariables.scss';
+@import './header.scss';
+@import './Products.scss';
+
+
+.Main{
+    background-color: $default_white;
+}
+
+.grid-wrap{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-gap: 20px;
+    margin: 20px;
+}
+
+.slider{
+    width: 100%;
+    height: 500px;
+}
+
+
+h2{
+    font-family: $fontFamilyBold;
+}
+h1{
+    font-family: $fontFamilyBold;
+}
+
+p{
+        font-family: $fontFamilyBold;
+}
+
+a{
+    color: $default_white;
+    text-decoration: none;
+    font-family: $fontFamilyBold;
+    font-size: $textLink;
+}
